@@ -10,10 +10,10 @@ module.exports = {
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'SK_TIL',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'https://cdn.pixabay.com/photo/2017/06/10/07/18/list-2389219_960_720.png',
       },
       items: [
         {

@@ -5,12 +5,12 @@ title: 02.기본 자료구조
 
 < Do it! 자료구조와 함께 배우는 알고리즘 입문 자바 편 >
 
-# 자료구조
+## 자료구조
 >데이터 단위와 데이터 자체 사이의 물리적 또는 논리적인 관계
 - 자료를 효율적으로 이용할 수 있도록 컴퓨터에 저장하는 방법
 
 
-# 배열
+## 배열
 ```java
 - 선언: 형식A를 더 많이 사용한다.
 int[] a; // 형식A
@@ -42,4 +42,26 @@ int[] b = a.clone(); // clone 메서드 사용
         5. 지역 변수: 접근 제한자를 사용할 수 없음
 
 
+- String 클래스는 문자열 리터럴이고 String형 인스턴스에 대한 참조
+    - 대표 메서드
+```java
+char charAt(int i)
+int length()
+boolean equals(String s)
+```
 
+## 다차원 배열
+>"int형을 구성 자료형으로 하는 배열"을 구성 자료형으로 하는 배열
+
+```java
+선언
+int[][] x = new int[2][4]; // 2행 4열
+```
+
+- 02.연습문제(github 업로드)
+    - [CH02_Q1](https://github.com/sksk713/Doit_algorithm/blob/master/Chap2/C2_Q1.java)
+    - [CH02_Q2](https://github.com/sksk713/Doit_algorithm/blob/master/Chap2/C2_Q2.java)
+    - [CH02_Q3](https://github.com/sksk713/Doit_algorithm/blob/master/Chap2/C2_Q3.java)
+    - [CH02_Q4](https://github.com/sksk713/Doit_algorithm/blob/master/Chap2/C2_Q4.java)
+    - [CH02_Q6](https://github.com/sksk713/Doit_algorithm/blob/master/Chap1/C2_Q6.java)
+    

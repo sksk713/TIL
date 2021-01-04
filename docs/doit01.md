@@ -11,10 +11,10 @@ slug: /
 
 >문제를 해결하기 위한 것으로, 명확하게 정의되고 순서가 있는 유한 개의 규칙으로 이루어진 집합
 
-# 입출력
+## 입출력
 
 
-## Scanner
+### Scanner
 ```java
 Scanner stdIn = new Scanner(System.in);
 
@@ -25,7 +25,7 @@ stdIn.nextLine(); // 문자열 1줄
 - stdIn은 표준 입력 스트림(System.in)에서 문자나 숫자를 꺼내는 장치 역할을 한다.
 - System.in의 리턴값은 InputStream이며 byte단위로 데이터를 읽는다.
 
-## BufferedReader
+### BufferedReader
 ```java
 BufferedReader stdIn = new BufferedReader(new InputStreamReader(System.in));
 string[] s = stdIn.readLine().split(" ");
@@ -40,7 +40,7 @@ string[] s = stdIn.readLine().split(" ");
 
 
 
-# 반복
+## 반복
 - 하나의 변수를 사용하면 for문을 사용하는 것이 편하다.
 - for문 내에 선언된 변수는 for문 내에서만 유효하다.
 

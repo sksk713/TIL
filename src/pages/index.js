@@ -72,7 +72,7 @@ function Home() {
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/')}>
-              Get Started
+              LEE SANG KYEONG
             </Link>
           </div>
         </div>

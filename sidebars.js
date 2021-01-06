@@ -9,11 +9,7 @@ module.exports = {
       },
     ],
     Doit_Algorithm: ["doit01", "doit02"],
-    PS: [
-      { 
-        Baekjoon: ["PS/Baekjoon/baek01"],
-      },
-    ],
+    PS: ["PS/baek"],
     etc: ["markdown"]
   },
 };

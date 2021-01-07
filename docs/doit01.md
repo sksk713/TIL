@@ -1,8 +1,8 @@
 ---
 id: doit01
 title: 01.기본 알고리즘
-sidebar_label: 01.기본 알고리즘
-slug: /
+# sidebar_label: 01.기본 알고리즘
+# slug: /
 ---
 
 < Do it! 자료구조와 함께 배우는 알고리즘 입문 자바 편 >

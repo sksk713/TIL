@@ -1,6 +1,6 @@
 ---
 id: intro
-title: 2021-01-04 TIL 시작!
+title: TIL(Today I Leared) 시작!
 sidebar_label: 소개
 slug: /
 ---

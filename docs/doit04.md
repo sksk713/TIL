@@ -57,7 +57,7 @@ public IntStack(int capacity){
 }
 ```
 
-#### 메서드
+### 메서드
 - push
 ```java
 public int push(int x) throws OverflowIntStackException {
@@ -128,5 +128,77 @@ public boolean isEmpty(){
 ```java
 public boolean isFull(){
     return ptr >= max;
+}
+```
+
+## 큐
+> 가장 먼저 넣은 데이터를 가장 먼저 꺼내는 선입선출방식 자료구조
+
+### 용어 정리
+- enqueue
+> 데이터 넣기
+- dequeue
+> 데이터 빼기
+- front
+> 데이터 꺼내는 곳
+- rear
+> 데이터 넣는 쪽(맨 뒤 데이터 바로 뒤 idx)
+
+### 링 버퍼 큐
+> 1. 배열 요소를 앞쪽으로 옮길 필요가 없는 큐
+> 2. 배열의 처음과 끝이 연결되어 있음 ( 물리적 변수로 front, rear 사용)
+
+```java
+public class IntQueue {
+    private int max;
+    private int front;
+    private int rear;
+    private int num;
+    private int[] que;
+
+    // 실행 시 예외: 큐 비어 있음
+    public class EmptyIntQueueException extends RuntimeException {
+        public EmptyIntQueueException(){}
+    }
+
+    // 실행 시 예외: 큐 가득 차있음
+    public class OverflowIntQueueException extends RuntimeException{
+        public OverflowIntQueueException(){}
+    }
+
+    // 생성자
+    public IntQueue(int capacity){
+        num = front = rear = 0;
+        max = capacity;
+        try {
+            que = new int[max];
+        } catch (OutOfMemoryError e) {
+            max = 0;
+        }
+    }
+    // 큐에 데이터 넣기
+    public int enque(int x) throws OverflowIntQueueExcetion {
+        if (num >= max){
+            throw new OverflowIntQueueException();
+        }
+        que[rear++] = x;
+        num++;
+        if (rear == max){
+            rear = 0;
+        }
+        return x;
+    }
+    // 큐에 데이터 빼기
+    public int deque() throws EmptyIntQueueException {
+        if (num <= 0){
+            throw new EmptyIntQueueException();
+        }
+        int x = que[front++];
+        num--;
+        if (front == max){
+            front = 0;
+        }
+        return x;
+    }
 }
 ```

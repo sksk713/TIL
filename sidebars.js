@@ -3,7 +3,7 @@ module.exports = {
     // Docusaurus: ["doc1", "doc2", "doc3"],
     // Features: ["mdx"],
     Intro: ["intro"],
-    Java: [],
+    Java: ["Java/ja01", "Java/ja02"],
     Spring: [
       { 
         스프링입문: ["Spring/스프링 입문/sp01", "Spring/스프링 입문/sp02"],

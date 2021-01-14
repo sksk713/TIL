@@ -10,7 +10,7 @@ module.exports = {
       },
     ],
     Doit_Algorithm: ["Doit_algorithm/doit01", "Doit_algorithm/doit02", "Doit_algorithm/doit03", "Doit_algorithm/doit04", "Doit_algorithm/doit05"],
-    PS: ["PS/pa01", "PS/baek"],
+    PS: ["PS/pstip01", "PS/week1"],
     etc: ["markdown"]
   },
 };

@@ -1,27 +1,14 @@
 ---
-id: baek
+id: week1
 title: 1주차
 ---
 
 # PS 1주차
 
-## 문제번호: 11407(동전 0)
+## 문제번호: 11047(동전 0)
 - [문제링크](https://www.acmicpc.net/problem/11047)
 - [깃허브](https://github.com/sksk713/PS/blob/master/1%EC%A3%BC%EC%B0%A8/11047.java)
 
-
-`문제`
-준규가 가지고 있는 동전은 총 N종류이고, 각각의 동전을 매우 많이 가지고 있다.
-
-동전을 적절히 사용해서 그 가치의 합을 K로 만들려고 한다. 이때 필요한 동전 개수의 최솟값을 구하는 프로그램을 작성하시오.
-
-`입력`
-첫째 줄에 N과 K가 주어진다. (1 ≤ N ≤ 10, 1 ≤ K ≤ 100,000,000)
-
-둘째 줄부터 N개의 줄에 동전의 가치 Ai가 오름차순으로 주어진다. (1 ≤ Ai ≤ 1,000,000, A1 = 1, i ≥ 2인 경우에 Ai는 Ai-1의 배수)
-
-`출력`
-첫째 줄에 K원을 만드는데 필요한 동전 개수의 최솟값을 출력한다.
 
 ### 풀이
 1. 동전을 오름차순으로 입력하기 때문에 따로 정렬할 필요는 없다
@@ -63,23 +50,6 @@ class Main {
 ## 문제번호: 1914(하노이 탑)
 - [문제링크](https://www.acmicpc.net/problem/1914)
 - [깃허브](https://github.com/sksk713/PS/blob/master/1%EC%A3%BC%EC%B0%A8/1914.java)
-
-`문제`
-세 개의 장대가 있고 첫 번째 장대에는 반경이 서로 다른 n개의 원판이 쌓여 있다. 각 원판은 반경이 큰 순서대로 쌓여있다. 이제 수도승들이 다음 규칙에 따라 첫 번째 장대에서 세 번째 장대로 옮기려 한다.
-
-한 번에 한 개의 원판만을 다른 탑으로 옮길 수 있다.
-쌓아 놓은 원판은 항상 위의 것이 아래의 것보다 작아야 한다.
-이 작업을 수행하는데 필요한 이동 순서를 출력하는 프로그램을 작성하라. 단, 이동 횟수는 최소가 되어야 한다.
-
-아래 그림은 원판이 5개인 경우의 예시이다.
-
-`입력`
-첫째 줄에 첫 번째 장대에 쌓인 원판의 개수 N (1 ≤ N ≤ 100)이 주어진다.
-
-`출력`
-첫째 줄에 옮긴 횟수 K를 출력한다.
-
-N이 20 이하인 입력에 대해서는 두 번째 줄부터 수행 과정을 출력한다. 두 번째 줄부터 K개의 줄에 걸쳐 두 정수 A B를 빈칸을 사이에 두고 출력하는데, 이는 A번째 탑의 가장 위에 있는 원판을 B번째 탑의 가장 위로 옮긴다는 뜻이다. N이 20보다 큰 경우에는 과정은 출력할 필요가 없다.
 
 ### 풀이(시간초과)
 1. 재귀를 이용하여 풀이 N-1개의 원판을 첫번째에서 중간 기둥으로 옮긴다
@@ -163,6 +133,59 @@ public class Main {
         if(n > 1){
             hanoi_print(n-1, 6 - x - y, y);
         }
+    }
+}
+```
+
+## 문제번호: 1449(수리공 항승)
+[문제링크](https://www.acmicpc.net/problem/1449)
+[깃허브][]
+
+### 풀이
+1. 구멍의 개수와 테이프의 길이를 입력한다.
+2. 처음에 구멍의 개수에 맞게 테이프 칠을 하도록 cnt를 올린다.
+3. 그 다음 테이프의 길이와 구멍 사이의 길이를 체크
+    1. 구멍을 먼저 오름차순으로 정렬 `Arrays.sort()`
+    2. 그 다음 가장 첫 구멍을 값에 저장한 다음, 뒤에 있는 값들과 비교
+    3. `뒤 구멍 - 앞 구멍 + 1`이 테이프의 길이보다 짧으면 cnt 1을 빼준다. (테이프 하나로 막을 수 있으므로)
+    4. 그 다음 뒤에있는 구멍과도 비교를 해서 그 길이가 테이플 길이보다 크다면 index를 해당 구멍부터 시작하도록 옮겨준다.
+    
+```java
+import java.util.Arrays;
+import java.util.Scanner;
+
+import static java.lang.Math.abs;
+
+public class boj_1449{
+    public static Scanner stdin = new Scanner(System.in);
+    static int cnt;
+
+    public static void main(String[] args){
+        int n = stdin.nextInt();
+        int l = stdin.nextInt();
+
+        int[] hole = new int[n];
+        for(int i = 0; i < n; i++){
+            hole[i] = stdin.nextInt();
+        }
+
+        System.out.println(solution(hole, l));
+
+    }
+    static int solution(int[] hole, int l) {
+        Arrays.sort(hole);
+        int a = hole[0];
+        cnt = hole.length;
+
+        for(int i = 1; i < hole.length; i++){
+            if((abs(a - hole[i]) + 1 <= l)){
+                cnt--;
+            }
+            else {
+                a = hole[i];
+            }
+        }
+        return cnt;
     }
 }
 ```

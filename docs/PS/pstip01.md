@@ -1,6 +1,6 @@
 ---
-id: pa01
-title: 코테용 JAVA TIP
+id: pstip01
+title: 📄 자바 입출력/메소드
 ---
 
 ## 입출력

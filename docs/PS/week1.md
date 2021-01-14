@@ -138,8 +138,8 @@ public class Main {
 ```
 
 ## 문제번호: 1449(수리공 항승)
-[문제링크](https://www.acmicpc.net/problem/1449)
-[깃허브][]
+- [문제링크](https://www.acmicpc.net/problem/1449)
+- [깃허브](https://github.com/sksk713/PS/blob/master/1%EC%A3%BC%EC%B0%A8/1449.java)
 
 ### 풀이
 1. 구멍의 개수와 테이프의 길이를 입력한다.

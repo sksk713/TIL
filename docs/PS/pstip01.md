@@ -86,5 +86,31 @@ public static void main(String[] args) throws IOException{
 ```
 ## 메소드
 
+```java
+배열
+int[] arr = new int[]; //배열선언
+char[] chararr = {'a', 'b', 'c'};
+int[] intarr = {1, 2, 3};
 
-수정하기
+Arrays.sort(arr); // 오름차순 정렬
+Arrays.sort(arr, Collections.reverseOrder()); // 내림차순 정렬
+
+String str = Arrays.toString(intarr); // int[] 문자열로 변환
+String str2 = String.valueof(chararr); // char 문자열로 변환
+Char[] chararr2 = str2.toCharArray(str); // 문자열 char[]로 변환
+
+
+문자열
+
+StringBuilder sb = new StringBuilder(); //문자열 선언
+sb.trim();
+sb.charAt(i);
+sb.length();
+sb.capacity();
+sb.append();
+sb.insert(index, " ");
+sb.delete();
+sb.replace(fromidx, toidx, " ");
+sb.reverse();
+sb.toString();
+```

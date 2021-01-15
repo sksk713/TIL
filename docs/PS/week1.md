@@ -189,3 +189,9 @@ public class boj_1449{
     }
 }
 ```
+
+## 문제번호: 1080(행렬)
+- [문제링크](https://www.acmicpc.net/problem/1449)
+- [깃허브](https://github.com/sksk713/PS/blob/master/1%EC%A3%BC%EC%B0%A8/1449.java)
+
+### 풀이

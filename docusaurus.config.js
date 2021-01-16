@@ -33,19 +33,23 @@ module.exports = {
     footer: {
       style: 'dark',
       links: [
-        // {
-        //   title: 'Docs',
-        //   items: [
-        //     {
-        //       label: 'Style Guide',
-        //       to: 'docs/',
-        //     },
-        //     {
-        //       label: 'Second Doc',
-        //       to: 'docs/doc2/',
-        //     },
-        //   ],
-        // },
+        {
+          title: 'Docs',
+          items: [
+            // {
+            //   label: '소개',
+            //   to: 'docs/intro',
+            // },
+            // {
+            //   label: 'Java',
+            //   to: 'docs/Java/ja01',
+            // },
+            // {
+            //   label: 'Spring',
+            //   to: 'docs/Spring/',
+            // },
+          ],
+        },
         {
           title: 'Community',
           items: [

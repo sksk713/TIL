@@ -113,4 +113,6 @@ sb.delete();
 sb.replace(fromidx, toidx, " ");
 sb.reverse();
 sb.toString();
+
+값 비교는 == 문자열 비교는 .equals("")메소드 사용한다.
 ```

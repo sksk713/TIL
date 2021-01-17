@@ -17,13 +17,13 @@ slug: /
 - Spring
     - [생성/라이브러리/빌드및실행](https://sksk713-til.netlify.app/docs/Spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%EC%9E%85%EB%AC%B8/sp01)
     - [정적컨텐츠/MVC/API](https://sksk713-til.netlify.app/docs/Spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%EC%9E%85%EB%AC%B8/sp02)
-- Doit_algorithm
+- Doit_Java
     - [01.기본 알고리즘](https://sksk713-til.netlify.app/docs/Doit_algorithm/doit01)
     - [02.기본 자료구조](https://sksk713-til.netlify.app/docs/Doit_algorithm/doit02)
     - [03.검색](https://sksk713-til.netlify.app/docs/Doit_algorithm/doit03)
     - [04.스택과 큐](https://sksk713-til.netlify.app/docs/Doit_algorithm/doit04)
     - [05.재귀 알고리즘](https://sksk713-til.netlify.app/docs/Doit_algorithm/doit05)
-    <!-- - [06.정렬]() -->
+    - [06.정렬](https://sksk713-til.netlify.app/docs/Doit_algorithm/doit06)
 - PS
     - [자바입출력/메소드](https://sksk713-til.netlify.app/docs/PS/pstip01)
     - [1주차](https://sksk713-til.netlify.app/docs/PS/week1)
@@ -32,8 +32,6 @@ slug: /
 
 ## To do
 - Datebase
-    1. Mysql
-    2. MongoDB
 - Kotlin
 - Android
 - HTML/CSS/JS

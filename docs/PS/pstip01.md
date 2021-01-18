@@ -104,7 +104,7 @@ Char[] chararr2 = str2.toCharArray(str); // 문자열 char[]로 변환
 
 StringBuilder sb = new StringBuilder(); //문자열 선언
 sb.trim();
-sb.charAt(i);
+sb.charAt(i); // 해당 인덱스 문자 가져올때 사용 !!!
 sb.length();
 sb.capacity();
 sb.append();

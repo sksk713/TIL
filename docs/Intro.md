@@ -1,6 +1,6 @@
 ---
 id: intro
-title: TIL(Today I Leared) 시작!
+title: 🏃‍♂️TIL(Today I Leared) 시작!
 sidebar_label: 소개
 slug: /
 ---
@@ -27,6 +27,7 @@ slug: /
 - PS
     - [자바입출력/메소드](https://sksk713-til.netlify.app/docs/PS/pstip01)
     - [1주차](https://sksk713-til.netlify.app/docs/PS/week1)
+    - [2주차](https://sksk713-til.netlify.app/docs/PS/week2)
 - etc
     - [마크다운문법](https://sksk713-til.netlify.app/docs/markdown)
 
@@ -34,5 +35,6 @@ slug: /
 - Datebase
 - Kotlin
 - Android
+- Docker/Kubernetes/Aws
 - HTML/CSS/JS
 

@@ -49,7 +49,7 @@ public class Main {
 }
 ```
 
-## 문제번호: 1105(팔)
+## 문제번호: 1092(배)
 - [문제링크](https://www.acmicpc.net/problem/1092)
 - [깃허브](https://github.com/sksk713/PS/blob/master/2%EC%A3%BC%EC%B0%A8/1092.java)
 

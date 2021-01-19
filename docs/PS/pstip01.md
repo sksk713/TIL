@@ -116,3 +116,21 @@ sb.toString();
 
 값 비교는 == 문자열 비교는 .equals("")메소드 사용한다.
 ```
+### Arraylist
+- Arraylist는 가변적으로 변하는 선형 리스트
+
+```java
+선언
+Arraylist<타입> 이름 = new Arraylist<타입>();
+
+메소드
+.add(value)
+.add(value, index);
+.remove(index) // 앞으로 하나씩 알아서 땡겨짐
+.clear() // 리스트 완전히 비우기
+.size() // 리스트 크기 구하기
+.get(index) // 해당 index 값 가져오기
+.contains(index) // true or false
+.indexof(index) // index or -1
+
+```

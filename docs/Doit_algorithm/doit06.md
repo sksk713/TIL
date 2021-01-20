@@ -207,3 +207,60 @@ static void merge(int[] a, int na, int[] b, int nb, int[] c){
     - 분할 단계는 비교연산, 이동연산이 수행되지 않으므로 시간복잡도에 포함x
     - 병합 단계만 포함
 > 배열 병합: O(n)이고 요소 개수가 n개일 때 병합 정렬의 단계는 log n 만큼 필요하므로 전체 시간 복잡도는 O(log n)
+
+### 힙정렬
+> - heap을 사용하여 정렬 (선택정렬 응용)
+> - 부모의 값이 자식의 값보다 항상 큰 완전이진트리
+
+
+
+- 부모는 a[(i - 1) / 2]
+- 왼쪽 자식은 a[i * 2 + 1]
+- 오른쪽 자식은 a[i * 2 + 1]
+
+```java
+static void downHeap(int[] a, int left, int right){
+    int temp = a[left];
+    int child;
+    int parent;
+
+    for(parent = left; parent < (right + 1) / 2; parent = child) {
+        int cl = parent * 2 + 1;
+        int cr = cl + 1;
+        child = (cr <= right && a[cr] > a[cl]) ? cr : cl;
+        if(temp >= a[child])
+            break;
+        a[parent] = a[child];
+    }
+    a[parent] = temp;
+}
+
+static void heapSort(int[] a, int n){
+    for(int i = (n - 1) / 2; i >= 0; i--){
+        downHeap(a, i, n - 1);
+    }
+    // 정렬 되지 않은 상태를 힙정렬한다
+
+    for(int i = n - 1; i > 0; i--){
+        swa(a, 0, i);
+        downHeap(a, 0, i - 1);
+    }
+    // 정렬 됐으면 루트와 맨 끝 인덱스의 값을 바꾸고 다시 힙정렬 한다.
+}
+```
+#### 힙정렬 시간복잡도
+> O(nlogn)
+
+
+### 도수정렬
+> 요소의 대소 관계 비교를 하지 않는 정렬
+1. 도수분포표 만들기
+2. 누적 도수분포표 만들기
+3. 목적 배열 만들기
+4. 배열 복사하기
+```java
+for(int i = 0; i < n; i++) f[a[i])++; //1단계
+for(int i = 0; i <= max; i++) f[i] += f[i - 1];//2단계
+for(int i = n - 1; i >= n; i--) b[--f[a[i]]] = a[i];//3단계
+for(int i = 0; i < n; i++) a[i] = b[i];//4단계
+```

@@ -24,6 +24,8 @@ slug: /
     - [04.스택과 큐](https://sksk713-til.netlify.app/docs/Doit_algorithm/doit04)
     - [05.재귀 알고리즘](https://sksk713-til.netlify.app/docs/Doit_algorithm/doit05)
     - [06.정렬](https://sksk713-til.netlify.app/docs/Doit_algorithm/doit06)
+    - [07.문자열 검색](https://sksk713-til.netlify.app/docs/Doit_algorithm/doit07)
+    - [08.리스트](https://sksk713-til.netlify.app/docs/Doit_algorithm/doit08)
 - PS
     - [자바입출력/메소드](https://sksk713-til.netlify.app/docs/PS/pstip01)
     - [1주차](https://sksk713-til.netlify.app/docs/PS/week1)

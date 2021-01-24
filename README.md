@@ -25,6 +25,8 @@ Today I Learned
     - [06.정렬](https://sksk713-til.netlify.app/docs/Doit_algorithm/doit06)
     - [07.문자열 검색](https://sksk713-til.netlify.app/docs/Doit_algorithm/doit07)
     - [08.리스트](https://sksk713-til.netlify.app/docs/Doit_algorithm/doit08)
+    - [09.트리](https://sksk713-til.netlify.app/docs/Doit_algorithm/doit09)
+
 - PS
     - [자바입출력/메소드](https://sksk713-til.netlify.app/docs/PS/pstip01)
     - [1주차](https://sksk713-til.netlify.app/docs/PS/week1)

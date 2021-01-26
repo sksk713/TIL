@@ -31,6 +31,8 @@ Today I Learned
     - [자바입출력/메소드](https://sksk713-til.netlify.app/docs/PS/pstip01)
     - [1주차](https://sksk713-til.netlify.app/docs/PS/week1)
     - [2주차](https://sksk713-til.netlify.app/docs/PS/week2)
+    - [3주차](https://sksk713-til.netlify.app/docs/PS/week3)
+
 - etc
     - [마크다운문법](https://sksk713-til.netlify.app/docs/markdown)
 

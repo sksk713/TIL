@@ -134,3 +134,8 @@ Arraylist<타입> 이름 = new Arraylist<타입>();
 .indexof(index) // index or -1
 
 ```
+
+- Char -> int로
+```java
+int x = Character.getNumericValue(s.charAt(i));
+```

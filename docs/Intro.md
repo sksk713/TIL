@@ -14,6 +14,7 @@ slug: /
     - [상속/오버라이딩/super](https://sksk713-til.netlify.app/docs/Java/ja02)
     - [제어자/다형성/추상클래스](https://sksk713-til.netlify.app/docs/Java/ja03)
     - [인터페이스/내부클래스](https://sksk713-til.netlify.app/docs/Java/ja04)
+    - [컬렉션 프레임웍](https://sksk713-til.netlify.app/docs/Java/ja05)
 - Spring
     - [생성/라이브러리/빌드및실행](https://sksk713-til.netlify.app/docs/Spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%EC%9E%85%EB%AC%B8/sp01)
     - [정적컨텐츠/MVC/API](https://sksk713-til.netlify.app/docs/Spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%EC%9E%85%EB%AC%B8/sp02)

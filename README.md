@@ -17,7 +17,8 @@ Today I Learned
 - Spring
     - [생성/라이브러리/빌드및실행](https://sksk713-til.netlify.app/docs/Spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%EC%9E%85%EB%AC%B8/sp01)
     - [정적컨텐츠/MVC/API](https://sksk713-til.netlify.app/docs/Spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%EC%9E%85%EB%AC%B8/sp02)
-    - [테스트 케이스 작성](https://sksk713-til.netlify.app/docs/Spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%EC%9E%85%EB%AC%B8/sp02)
+    - [테스트 케이스 작성](https://sksk713-til.netlify.app/docs/Spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%EC%9E%85%EB%AC%B8/sp03)
+    - [스프링 빈과 의존관계](https://sksk713-til.netlify.app/docs/Spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%EC%9E%85%EB%AC%B8/sp04)
 
 - Doit_Java
     - [01.기본 알고리즘](https://sksk713-til.netlify.app/docs/Doit_algorithm/doit01)

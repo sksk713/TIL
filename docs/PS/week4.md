@@ -6,8 +6,8 @@ title: 4주차
 # PS 4주차
 
 ## 문제번호: 18870(좌표 압축)
-- [문제링크](https://www.acmicpc.net/problem/1012)
-- [깃허브](https://github.com/sksk713/PS/blob/master/3%EC%A3%BC%EC%B0%A8/1012.java)
+- [문제링크](https://www.acmicpc.net/problem/18870)
+- [깃허브](https://github.com/sksk713/PS/blob/master/4%EC%A3%BC%EC%B0%A8/18870.java)
 
 ### 풀이
 1. 좌표가 들어있는 배열을 두개 만든다

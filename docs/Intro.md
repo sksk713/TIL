@@ -30,12 +30,17 @@ slug: /
     - [07.문자열 검색](https://sksk713-til.netlify.app/docs/Doit_algorithm/doit07)
     - [08.리스트](https://sksk713-til.netlify.app/docs/Doit_algorithm/doit08)
     - [09.트리](https://sksk713-til.netlify.app/docs/Doit_algorithm/doit09)
-
+- DB
+    - SQL이론
+        - [열/WHERE/연산자](https://sksk713-til.netlify.app/docs/데이터베이스/SQL이론/sql01)
 - PS
     - [자바입출력/메소드](https://sksk713-til.netlify.app/docs/PS/pstip01)
     - [1주차](https://sksk713-til.netlify.app/docs/PS/week1)
     - [2주차](https://sksk713-til.netlify.app/docs/PS/week2)
     - [3주차](https://sksk713-til.netlify.app/docs/PS/week3)
+    - [4주차](https://sksk713-til.netlify.app/docs/PS/week4)
+
+
 
 - etc
     - [마크다운문법](https://sksk713-til.netlify.app/docs/markdown)

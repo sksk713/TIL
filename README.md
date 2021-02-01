@@ -19,7 +19,6 @@ Today I Learned
     - [정적컨텐츠/MVC/API](https://sksk713-til.netlify.app/docs/Spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%EC%9E%85%EB%AC%B8/sp02)
     - [테스트 케이스 작성](https://sksk713-til.netlify.app/docs/Spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%EC%9E%85%EB%AC%B8/sp03)
     - [스프링 빈과 의존관계](https://sksk713-til.netlify.app/docs/Spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%EC%9E%85%EB%AC%B8/sp04)
-
 - Doit_Java
     - [01.기본 알고리즘](https://sksk713-til.netlify.app/docs/Doit_algorithm/doit01)
     - [02.기본 자료구조](https://sksk713-til.netlify.app/docs/Doit_algorithm/doit02)
@@ -31,11 +30,16 @@ Today I Learned
     - [08.리스트](https://sksk713-til.netlify.app/docs/Doit_algorithm/doit08)
     - [09.트리](https://sksk713-til.netlify.app/docs/Doit_algorithm/doit09)
 
+- DB
+    - SQL이론
+        - [열/WHERE/연산자](https://sksk713-til.netlify.app/docs/데이터베이스/SQL이론/sql01)
 - PS
     - [자바입출력/메소드](https://sksk713-til.netlify.app/docs/PS/pstip01)
     - [1주차](https://sksk713-til.netlify.app/docs/PS/week1)
     - [2주차](https://sksk713-til.netlify.app/docs/PS/week2)
     - [3주차](https://sksk713-til.netlify.app/docs/PS/week3)
+    - [4주차](https://sksk713-til.netlify.app/docs/PS/week4)
+
 
 - etc
     - [마크다운문법](https://sksk713-til.netlify.app/docs/markdown)

@@ -205,3 +205,161 @@ public class Main {
     }
 }
 ```
+
+## 문제번호: 11724(연결 요소의 갯수)
+- [문제링크](https://www.acmicpc.net/problem/11724)
+- [깃허브](https://github.com/sksk713/PS/blob/master/4%EC%A3%BC%EC%B0%A8/11724.java)
+
+### 풀이
+1. BFS를 이용해서 한번 순회할때마다 해당 점과 연결된 지점을 모두 체크해준다.
+2. 체크된 점은 cnt를 늘리지 않기 때문에 서로 연결된 집단의 갯수를 바로 알 수 있다.
+
+```java
+public class Main {
+    static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    static StringTokenizer st;
+    static int node;
+    static int edge;
+    static int[][] arr;
+    static boolean[] check;
+    static int cnt = 0;
+
+    public static void main(String[] args) throws IOException {
+        st = new StringTokenizer(br.readLine(), " ");
+        node = Integer.parseInt(st.nextToken());
+        edge = Integer.parseInt(st.nextToken());
+
+        arr = new int[node + 1][node + 1];
+        check = new boolean[node + 1];
+
+
+        for(int i = 0; i < edge; i++){
+            st = new StringTokenizer(br.readLine(), " ");
+            int x = Integer.parseInt(st.nextToken());
+            int y = Integer.parseInt(st.nextToken());
+            arr[x][y] = 1;
+            arr[y][x] = 1;
+        }
+        for(int i = 1; i < node + 1; i++){
+            if(!check[i]){
+                bfs(i);
+                cnt++;
+            }
+        }
+        System.out.println(cnt);
+    }
+
+    static void bfs(int node){
+        Queue<Integer> qu = new LinkedList<>();
+        check[node] = true;
+        qu.add(node);
+
+        while(!qu.isEmpty()){
+            int x = qu.poll();
+            for(int i = 1; i < arr.length; i++){
+                if(!check[i] && arr[x][i] == 1){
+                    qu.add(i);
+                    check[i] = true;
+                }
+            }
+        }
+    }
+}
+```
+
+## 문제번호: 7569(토마토)
+- [문제링크](https://www.acmicpc.net/problem/7569)
+- [깃허브](https://github.com/sksk713/PS/blob/master/4%EC%A3%BC%EC%B0%A8/7569.java)
+
+### 풀이
+
+지난 7576 토마토 문제와 흡사하지만 다중배열을 사용해야 한다.
+3차 배열에서 머리로 생각하느라 해맸다.
+
+차원에 대해서 조금 더 생각해보자.
+
+```java
+public class boj_7569 {
+    static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    static StringTokenizer st;
+    static int[][][] arr;
+    static Queue<newpoint> qu = new LinkedList<>();
+    static int[] dx = {1, -1, 0, 0, 0, 0};
+    static int[] dy = {0, 0, 1, -1, 0, 0};
+    static int[] dz = {0, 0, 0, 0, 1, -1};
+    static int cnt = 0;
+
+    public static void main(String[] args) throws IOException {
+        st = new StringTokenizer(br.readLine(), " ");
+        int x = Integer.parseInt(st.nextToken());
+        int y = Integer.parseInt(st.nextToken());
+        int z = Integer.parseInt(st.nextToken());
+
+        arr = new int[z][y][x];
+
+        for (int i = 0; i < z; i++) {
+            for (int j = 0; j < y; j++) {
+                st = new StringTokenizer(br.readLine(), " ");
+                for (int k = 0; k < x; k++) {
+                    arr[i][j][k] = Integer.parseInt(st.nextToken());
+                }
+            }
+        }
+        System.out.println(BFS(x, y, z));
+    }
+
+    static int BFS(int x, int y, int z){
+        for (int i = 0; i < z; i++) {
+            for (int j = 0; j < y; j++) {
+                for (int k = 0; k < x; k++) {
+                    if(arr[i][j][k] == 1){
+                        qu.add(new newpoint(k, j, i));
+                    }
+                }
+            }
+        }
+        while(!qu.isEmpty()){
+            newpoint po = qu.poll();
+            for (int i = 0; i < 6; i++) {
+                int nextx = po.x + dx[i];
+                int nexty = po.y + dy[i];
+                int nextz = po.z + dz[i];
+
+                if(nextx >= x || nextx < 0 || nexty >= y || nexty < 0 || nextz >= z || nextz < 0 || arr[nextz][nexty][nextx] != 0){
+                    continue;
+                }
+
+                arr[nextz][nexty][nextx] = arr[po.z][po.y][po.x] + 1;
+                qu.add(new newpoint(nextx, nexty, nextz));
+            }
+
+        }
+        int max = Integer.MIN_VALUE;
+        for (int i = 0; i < z; i++) {
+            for (int j = 0; j < y; j++) {
+                for (int k = 0; k < x; k++) {
+                    if (arr[i][j][k] == 0) {
+                        return -1;
+                    }
+                    if (arr[i][j][k] > max) {
+                        max = arr[i][j][k];
+                    }
+                }
+            }
+        }
+        return max - 1;
+    }
+}
+
+class newpoint {
+    int x;
+    int y;
+    int z;
+
+    public newpoint (int x, int y, int z){
+        this.x = x;
+        this.y = y;
+        this.z = z;
+    }
+}
+```

@@ -39,6 +39,7 @@ slug: /
     - [2주차](https://sksk713-til.netlify.app/docs/PS/week2)
     - [3주차](https://sksk713-til.netlify.app/docs/PS/week3)
     - [4주차](https://sksk713-til.netlify.app/docs/PS/week4)
+    - [5주차](https://sksk713-til.netlify.app/docs/PS/week5)
 
 
 - etc

@@ -65,3 +65,73 @@ public class Main {
     }
 }
 ```
+
+
+## 문제번호: 1927(최소 힙)
+- [문제링크](https://www.acmicpc.net/problem/1927)
+- [깃허브](https://github.com/sksk713/PS/blob/master/5%EC%A3%BC%EC%B0%A8/1927.java)
+
+### 풀이
+1. 처음에 ArrayList를 선언해서 0이 아닌 수가 들어올때 정렬을 해주었다.
+    - 시간초과 발생
+2. priorityqueue를 이용하면 큐에 입력될때마다 오름차순으로 자동으로 정렬이 된다.
+
+```java
+public class Main {
+    static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//    static ArrayList<Integer> arr = new ArrayList<>();
+    static PriorityQueue<Integer> arr = new PriorityQueue<>();
+
+    public static void main(String[] args) throws IOException {
+        int n = Integer.parseInt(br.readLine());
+        for (int i = 0; i < n; i++) {
+            int x = Integer.parseInt(br.readLine());
+            if (x != 0) {
+                arr.add(x);
+            } else {
+                if (arr.isEmpty()) {
+                    System.out.println(0);
+                } else {
+                    System.out.println(arr.poll());
+                }
+            }
+        }
+    }
+}
+```
+
+## 문제번호: 11279(최대 힙)
+- [문제링크](https://www.acmicpc.net/problem/11279)
+- [깃허브](https://github.com/sksk713/PS/blob/master/5%EC%A3%BC%EC%B0%A8/11279.java)
+
+### 풀이
+`최소 힙 풀이`
+1. 처음에 ArrayList를 선언해서 0이 아닌 수가 들어올때 정렬을 해주었다.
+    - 시간초과 발생
+2. priorityqueue를 이용하면 큐에 입력될때마다 오름차순으로 자동으로 정렬이 된다.
+
+- 최소 힙 풀이에서 priorityqueue의 우선순위를 정반대로 해주면 내림차순으로 정렬이 된다.
+
+```java
+public class boj_1927 {
+    static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//    static ArrayList<Integer> arr = new ArrayList<>();
+    static PriorityQueue<Integer> arr = new PriorityQueue<>(Comparator.reverseOrder());
+
+    public static void main(String[] args) throws IOException {
+        int n = Integer.parseInt(br.readLine());
+        for (int i = 0; i < n; i++) {
+            int x = Integer.parseInt(br.readLine());
+            if (x != 0) {
+                arr.add(x);
+            } else {
+                if (arr.isEmpty()) {
+                    System.out.println(0);
+                } else {
+                    System.out.println(arr.poll());
+                }
+            }
+        }
+    }
+}
+```

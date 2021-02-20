@@ -25,6 +25,8 @@ slug: /
     - 스프링 핵심 원리 - 기본편
         - [스프링과 객체지향](https://sksk713-til.netlify.app/docs/Spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%ED%95%B5%EC%8B%AC/sp06)
         - [가입/주문/할인 예제 및 객체 지향 원리](https://sksk713-til.netlify.app/docs/Spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%ED%95%B5%EC%8B%AC/sp07)
+        - [스프링 컨테이너와 스프링 빈](https://sksk713-til.netlify.app/docs/Spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%ED%95%B5%EC%8B%AC/sp08)
+        - [싱글톤 컨테이너](https://sksk713-til.netlify.app/docs/Spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%ED%95%B5%EC%8B%AC/sp09)
 - Doit_Java
     - [01.기본 알고리즘](https://sksk713-til.netlify.app/docs/Doit_algorithm/doit01)
     - [02.기본 자료구조](https://sksk713-til.netlify.app/docs/Doit_algorithm/doit02)

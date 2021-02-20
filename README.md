@@ -21,8 +21,10 @@ Today I Learned
         - [테스트 케이스 작성](https://sksk713-til.netlify.app/docs/Spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%EC%9E%85%EB%AC%B8/sp03)
         - [스프링 빈과 의존관계](https://sksk713-til.netlify.app/docs/Spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%EC%9E%85%EB%AC%B8/sp04)
         - [스프링 DB 접근기술/AOP](https://sksk713-til.netlify.app/docs/Spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%EC%9E%85%EB%AC%B8/sp05)
-
     - 스프링 핵심 원리 - 기본편
+        - [스프링과 객체지향](https://sksk713-til.netlify.app/docs/Spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%ED%95%B5%EC%8B%AC/sp06)
+        - [가입/주문/할인 예제 및 객체 지향 원리](https://sksk713-til.netlify.app/docs/Spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%ED%95%B5%EC%8B%AC/sp07)
+
 - Doit_Java
     - [01.기본 알고리즘](https://sksk713-til.netlify.app/docs/Doit_algorithm/doit01)
     - [02.기본 자료구조](https://sksk713-til.netlify.app/docs/Doit_algorithm/doit02)

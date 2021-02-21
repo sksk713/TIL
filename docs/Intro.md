@@ -27,6 +27,8 @@ slug: /
         - [가입/주문/할인 예제 및 객체 지향 원리](https://sksk713-til.netlify.app/docs/Spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%ED%95%B5%EC%8B%AC/sp07)
         - [스프링 컨테이너와 스프링 빈](https://sksk713-til.netlify.app/docs/Spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%ED%95%B5%EC%8B%AC/sp08)
         - [싱글톤 컨테이너](https://sksk713-til.netlify.app/docs/Spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%ED%95%B5%EC%8B%AC/sp09)
+- DB
+    - [열/WHERE/연산자](https://sksk713-til.netlify.app/docs/데이터베이스/SQL이론/sql01)
 - Doit_Java
     - [01.기본 알고리즘](https://sksk713-til.netlify.app/docs/Doit_algorithm/doit01)
     - [02.기본 자료구조](https://sksk713-til.netlify.app/docs/Doit_algorithm/doit02)
@@ -37,8 +39,6 @@ slug: /
     - [07.문자열 검색](https://sksk713-til.netlify.app/docs/Doit_algorithm/doit07)
     - [08.리스트](https://sksk713-til.netlify.app/docs/Doit_algorithm/doit08)
     - [09.트리](https://sksk713-til.netlify.app/docs/Doit_algorithm/doit09)
-- DB
-    - [열/WHERE/연산자](https://sksk713-til.netlify.app/docs/데이터베이스/SQL이론/sql01)
 - PS
     - [자바입출력/메소드](https://sksk713-til.netlify.app/docs/PS/pstip01)
     - [1주차](https://sksk713-til.netlify.app/docs/PS/week1)
@@ -46,16 +46,15 @@ slug: /
     - [3주차](https://sksk713-til.netlify.app/docs/PS/week3)
     - [4주차](https://sksk713-til.netlify.app/docs/PS/week4)
     - [5주차](https://sksk713-til.netlify.app/docs/PS/week5)
-    - [6주차](https://sksk713-til.netlify.app/docs/PS/week6)
+    - [6주차](https://sksk713-til.netlify.app/docs/PS/week6) // STOP 
 
 
 - etc
     - [마크다운문법](https://sksk713-til.netlify.app/docs/markdown)
 
 ## To do
-- Datebase
-- Kotlin
 - Docker/Kubernetes/Aws
 - GO
 - HTML/CSS/JS
+- Kotlin
 

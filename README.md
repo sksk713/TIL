@@ -27,7 +27,7 @@ Today I Learned
         - [스프링 컨테이너와 스프링 빈](https://sksk713-til.netlify.app/docs/Spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%ED%95%B5%EC%8B%AC/sp08)
         - [싱글톤 컨테이너](https://sksk713-til.netlify.app/docs/Spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%ED%95%B5%EC%8B%AC/sp09)
 - DB
-    - [열/WHERE/연산자](https://sksk713-til.netlify.app/docs/데이터베이스/SQL이론/sql01)
+    
 - Doit_Java
     - [01.기본 알고리즘](https://sksk713-til.netlify.app/docs/Doit_algorithm/doit01)
     - [02.기본 자료구조](https://sksk713-til.netlify.app/docs/Doit_algorithm/doit02)

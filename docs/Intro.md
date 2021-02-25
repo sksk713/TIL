@@ -27,6 +27,8 @@ slug: /
         - [가입/주문/할인 예제 및 객체 지향 원리](https://sksk713-til.netlify.app/docs/Spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%ED%95%B5%EC%8B%AC/sp07)
         - [스프링 컨테이너와 스프링 빈](https://sksk713-til.netlify.app/docs/Spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%ED%95%B5%EC%8B%AC/sp08)
         - [싱글톤 컨테이너](https://sksk713-til.netlify.app/docs/Spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%ED%95%B5%EC%8B%AC/sp09)
+        - [컴포넌트 스캔](https://sksk713-til.netlify.app/docs/Spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%ED%95%B5%EC%8B%AC/sp10)
+        - [의존관계 자동 주입](https://sksk713-til.netlify.app/docs/Spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%ED%95%B5%EC%8B%AC/sp11)
 - DB
     - [열/WHERE/연산자](https://sksk713-til.netlify.app/docs/데이터베이스/SQL이론/sql01)
 - Doit_Java

@@ -14,7 +14,7 @@ module.exports = {
     ],
     Doit_JAVA: ["Doit_algorithm/doit01", "Doit_algorithm/doit02", "Doit_algorithm/doit03", "Doit_algorithm/doit04", "Doit_algorithm/doit05",
     "Doit_algorithm/doit06", "Doit_algorithm/doit07", "Doit_algorithm/doit08", "Doit_algorithm/doit09"],
-    DB: ["데이터베이스/SQL이론/sql01"],
+    DB: ["데이터베이스/sql01", "데이터베이스/sql02"],
     PS: ["PS/pstip01", "PS/week1", "PS/week2", "PS/week3", "PS/week4", "PS/week5", "PS/week6"],
     etc: ["markdown"],
   },

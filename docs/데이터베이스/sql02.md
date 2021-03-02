@@ -30,3 +30,8 @@ DROP DATABASE 데이터베이스명;
 ![9](db09.png)
 
 - VARCHAR(80)은 80자 이하의 문자의 형태를 의미한다.
+
+## 테이블 삭제
+```sql
+DROP TABLE 테이블명;
+```

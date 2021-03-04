@@ -35,3 +35,5 @@ DROP DATABASE 데이터베이스명;
 ```sql
 DROP TABLE 테이블명;
 ```
+
+### D

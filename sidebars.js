@@ -11,6 +11,9 @@ module.exports = {
       {
         스프링기본원리: ["Spring/스프링 핵심/sp06", "Spring/스프링 핵심/sp07", "Spring/스프링 핵심/sp08", "Spring/스프링 핵심/sp09", "Spring/스프링 핵심/sp10", "Spring/스프링 핵심/sp11"],
       },
+      {
+        HTTP웹이론: ["Spring/HTTP/sp14", "Spring/HTTP/sp15"],
+      }
     ],
     DB: ["데이터베이스/sql01", "데이터베이스/sql02"],
     Algorithm: [],

@@ -30,7 +30,8 @@ slug: /
         - [컴포넌트 스캔](https://sksk713-til.netlify.app/docs/Spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%ED%95%B5%EC%8B%AC/sp10)
         - [의존관계 자동 주입](https://sksk713-til.netlify.app/docs/Spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%ED%95%B5%EC%8B%AC/sp11)
     - 모든 개발자를 위한 HTTP 웹 기본 지식
-        - [인터넷 네트워크](https://www.inflearn.com/course/http-%EC%9B%B9-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/dashboard)
+        - [인터넷 네트워크](https://sksk713-til.netlify.app/docs/Spring/HTTP/sp14)
+        - [URI와 웹 브라우저 요청 흐름](https://sksk713-til.netlify.app/docs/Spring/HTTP/sp15)
 - DB
     - [PostgreSQL/DB 개념](https://sksk713-til.netlify.app/docs/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4/sql01)
     - [PostgreSQL 쉘에서 쿼리 작성](https://sksk713-til.netlify.app/docs/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4/sql02)

@@ -35,6 +35,7 @@ Today I Learned
     - [PostgreSQL/DB 개념](https://sksk713-til.netlify.app/docs/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4/sql01)
     - [PostgreSQL 쉘에서 쿼리 작성](https://sksk713-til.netlify.app/docs/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4/sql02)
 - Algorithm
+    - [리스트, 딕셔너리](https://sksk713-til.netlify.app/docs/algo/al01)
 - Doit_Java
     - [01.기본 알고리즘](https://sksk713-til.netlify.app/docs/Doit_algorithm/doit01)
     - [02.기본 자료구조](https://sksk713-til.netlify.app/docs/Doit_algorithm/doit02)

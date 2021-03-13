@@ -13,6 +13,7 @@ module.exports = {
       },
       {
         HTTP웹이론: ["Spring/HTTP/sp14", "Spring/HTTP/sp15"],
+        스프링부트JPA활요용1: ["Spring/실전스프링1/sp22"],
       }
     ],
     DB: ["데이터베이스/sql01", "데이터베이스/sql02"],
